@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T00:49:21+00:00",
+  "title": "Design System: Busted Blends",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616162",
+          "#828283",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeef0"
+        ]
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "Sign Red",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0003",
+          "#800109",
+          "#b80312",
+          "#e8322f",
+          "#fe7468",
+          "#feb3aa",
+          "#fee9e6"
+        ]
+      },
+      "red-dark": {
+        "role": "primary",
+        "displayName": "Ember Red",
+        "tonalRamp": [
+          "#1f0000",
+          "#4d0003",
+          "#800109",
+          "#aa2e29",
+          "#d2534a",
+          "#fa786c",
+          "#ffb3a9",
+          "#fee9e6"
+        ]
+      },
+      "red-glow": {
+        "role": "secondary",
+        "displayName": "Hero Glow",
+        "tonalRamp": [
+          "#1e0002",
+          "#3f1616",
+          "#603332",
+          "#825251",
+          "#a67371",
+          "#ca9693",
+          "#f0b9b6",
+          "#fee9e7"
+        ]
+      },
+      "red-text": {
+        "role": "primary",
+        "displayName": "Red Text",
+        "tonalRamp": [
+          "#1f0001",
+          "#4d0004",
+          "#80000b",
+          "#b80215",
+          "#e23d3a",
+          "#fe7369",
+          "#ffb3aa",
+          "#fee9e6"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "#0e0b06",
+          "#28241f",
+          "#45413c",
+          "#65605b",
+          "#86827b",
+          "#a9a49e",
+          "#cdc8c2",
+          "#f3eee7"
+        ]
+      },
+      "paper-ink": {
+        "role": "neutral",
+        "displayName": "Paper Ink",
+        "tonalRamp": [
+          "#0d0a0a",
+          "#272423",
+          "#454140",
+          "#64605f",
+          "#858180",
+          "#a8a4a3",
+          "#ccc8c7",
+          "#f2edec"
+        ]
+      },
+      "paper-muted": {
+        "role": "neutral",
+        "displayName": "Paper Grey",
+        "tonalRamp": [
+          "#0f0a07",
+          "#2a241f",
+          "#47413c",
+          "#67605b",
+          "#88817b",
+          "#aba39e",
+          "#d0c7c2",
+          "#f5ede7"
+        ]
+      },
+      "on-red": {
+        "role": "neutral",
+        "displayName": "Warm White on Red",
+        "tonalRamp": [
+          "#0f0a06",
+          "#2a241f",
+          "#47403c",
+          "#67605a",
+          "#89817b",
+          "#aca39e",
+          "#d0c7c1",
+          "#f5ede7"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "Paper (text on dark)",
+        "tonalRamp": [
+          "#0e0b06",
+          "#28241f",
+          "#45413c",
+          "#65605b",
+          "#86827b",
+          "#a9a49e",
+          "#cdc8c2",
+          "#f3eee7"
+        ]
+      },
+      "on-ink-muted": {
+        "role": "neutral",
+        "displayName": "Ash",
+        "tonalRamp": [
+          "#0f0a06",
+          "#2a241f",
+          "#47413b",
+          "#67605a",
+          "#88817b",
+          "#aba39d",
+          "#d0c7c1",
+          "#f5ede6"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "tonalRamp": [
+          "#0b0b0e",
+          "#252529",
+          "#414146",
+          "#616165",
+          "#828287",
+          "#a4a4a9",
+          "#c8c8ce",
+          "#eeeef3"
+        ]
+      },
+      "rule-dash": {
+        "role": "neutral",
+        "displayName": "Empty Frame Dash",
+        "tonalRamp": [
+          "#0b0b0f",
+          "#24242a",
+          "#414147",
+          "#606067",
+          "#818188",
+          "#a4a4ab",
+          "#c8c8d0",
+          "#eeeef5"
+        ]
+      },
+      "frame-fill": {
+        "role": "neutral",
+        "displayName": "Frame Fill",
+        "tonalRamp": [
+          "#0d0a0b",
+          "#2a2627",
+          "#47423f",
+          "#66605e",
+          "#878180",
+          "#aaa4a2",
+          "#cec8c6",
+          "#f3edeb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero title only, centred over the tunnel."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "row": {
+        "displayName": "Row",
+        "purpose": "Service names in the What I cut list."
+      },
+      "card-title": {
+        "displayName": "Card Title",
+        "purpose": "\"Your cut goes here\" in the open card."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "The Book a cut button and the contact panel head."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The line under the hero title."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Section copy, 38 to 42ch, usually in Ash."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Nav pill links."
+      }
+    },
+    "shadows": [
+      {
+        "name": "object-on-dark",
+        "value": "0 12px 28px rgba(0,0,0,.5)",
+        "purpose": "Book button."
+      },
+      {
+        "name": "tunnel-card",
+        "value": "0 20px 40px rgba(0,0,0,.55)",
+        "purpose": "Each photo card in the hero tunnel."
+      },
+      {
+        "name": "panel-on-dark",
+        "value": "0 30px 60px rgba(0,0,0,.5)",
+        "purpose": "Red contact panel."
+      },
+      {
+        "name": "glass-nav",
+        "value": "inset 0 1px 0 rgba(255,255,255,.28), inset 0 -1px 0 rgba(255,255,255,.06), 0 10px 30px rgba(0,0,0,.35)",
+        "purpose": "Liquid glass nav pill."
+      },
+      {
+        "name": "glass-highlight",
+        "value": "inset 0 1px 0 rgba(255,255,255,.3)",
+        "purpose": "Sliding nav hover highlight (fill rgba(255,255,255,.12))."
+      },
+      {
+        "name": "title-lift",
+        "value": "text-shadow: 0 6px 30px rgba(0,0,0,.75)",
+        "purpose": "Hero title over passing photos; lede and text link use 0 2px 14px rgba(0,0,0,.9)."
+      },
+      {
+        "name": "hero-wash",
+        "value": "radial-gradient(closest-side, rgba(11,11,12,.85), rgba(11,11,12,.55) 60%, transparent)",
+        "purpose": "Dark wash behind the hero copy, min(1000px,120vw) x 80%."
+      }
+    ],
+    "glass": [
+      {
+        "name": "nav",
+        "value": "background rgba(24,22,24,.28); backdrop-filter blur(14px) saturate(180%); border 1px rgba(255,255,255,.14)",
+        "purpose": "Chromium swaps to blur(3px) url(#liquid) saturate(180%): feTurbulence fractalNoise 0.008 0.02, 2 octaves, seed 7, blur 2, displacement scale 38."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Nav highlight (0.35s), button press release (0.3s), photo zoom (0.6s)."
+      },
+      {
+        "name": "tunnel-scroll",
+        "value": "progress = sticky-stage travel through the 400vh section, rAF-throttled, linear",
+        "purpose": "Pulls the tunnel cards toward the camera."
+      },
+      {
+        "name": "press",
+        "value": "scale(.97), 0.12s",
+        "purpose": "Book button active state."
+      },
+      {
+        "name": "hover-color",
+        "value": "0.2s ease",
+        "purpose": "Fill and colour changes on buttons, rows, links, open card outline."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "One still tunnel arrangement (progress 0.18), no tall scroll, no smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "cuts-3col",
+        "value": "1100px"
+      },
+      {
+        "name": "stack",
+        "value": "860px"
+      },
+      {
+        "name": "compact",
+        "value": "520px"
+      }
+    ],
+    "tunnel": {
+      "perspective": "900px, origin 50% 50%",
+      "stage": "sticky, 100svh (min 560px), inside a 400vh section",
+      "background": "radial-gradient(ellipse 60% 55% at 50% 50%, var(--red-glow), var(--ink) 75%)",
+      "cards": "21 (7 cuts x3), clamp(120px,16vw,230px) wide, 4:5",
+      "placement": "angle i * golden angle; radius 0.42 * max(vw,vh) * ring (0.62..1); y squashed 0.8; z0 = -i * 420px",
+      "travel": "z = z0 + progress * 21 * 420 + 300",
+      "opacity": "fade in from z -3200 over 1600px; fade out over 220px before z 820"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Red Book a cut button; the one action in the hero.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Book a cut <svg width=\"1.25em\" height=\"1.25em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;min-height:56px;padding:14px 26px 12px;background:var(--red,#d4141c);color:var(--on-red,#fff6f0);border-radius:6px;font:900 1.6rem/1 \"Big Shoulders Display\",Archivo,sans-serif;text-transform:uppercase;text-decoration:none;box-shadow:0 12px 28px rgba(0,0,0,.5);transition:transform .3s cubic-bezier(.16,1,.3,1),background .2s ease}.ds-btn:hover{background:var(--red-dark,#8f0b10)}.ds-btn:active{transform:scale(.97);transition-duration:.12s}.ds-btn:focus-visible{outline:3px solid var(--red,#d4141c);outline-offset:3px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "link-text",
+      "description": "Underlined secondary action on dark; hover turns Red Text.",
+      "html": "<a class=\"ds-link\" href=\"#\">See the cuts</a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;min-height:44px;font:700 1rem/1.55 Archivo,system-ui,sans-serif;color:var(--on-ink,#f2ede6);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.25em}.ds-link:hover{color:var(--red-text,#ff5a52)}.ds-link:focus-visible{outline:3px solid var(--red,#d4141c);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Liquid Glass Nav",
+      "kind": "nav",
+      "refersTo": "nav-glass",
+      "description": "Fixed frosted pill with a sliding hover highlight and a red Book link. Refraction filter omitted here (Chromium-only bonus).",
+      "html": "<div class=\"ds-navstage\"><nav class=\"ds-nav\" aria-label=\"Main\"><a class=\"ds-mark\" href=\"#\">B<span>B</span></a><a href=\"#\">Cuts</a><a href=\"#\">Services</a><a class=\"ds-nav-book\" href=\"#\">Book</a></nav></div>",
+      "css": ".ds-navstage{padding:32px;background:radial-gradient(ellipse 70% 80% at 60% 40%,#2a0406,#0b0b0c 70%)}.ds-nav{display:inline-flex;align-items:center;gap:4px;padding:6px;border-radius:999px;background:rgba(24,22,24,.28);-webkit-backdrop-filter:blur(14px) saturate(180%);backdrop-filter:blur(14px) saturate(180%);border:1px solid rgba(255,255,255,.14);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),inset 0 -1px 0 rgba(255,255,255,.06),0 10px 30px rgba(0,0,0,.35);color:var(--on-ink,#f2ede6)}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;font:700 .85rem/1 Archivo,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:inherit;text-decoration:none;transition:background .2s ease}.ds-nav a:hover{background:rgba(255,255,255,.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.3)}.ds-nav .ds-mark{font:900 1.25rem/1 \"Big Shoulders Display\",Archivo,sans-serif;letter-spacing:.02em;padding:0 12px}.ds-mark span{color:var(--red,#d4141c)}.ds-nav .ds-nav-book{background:var(--red,#d4141c);color:var(--on-red,#fff6f0);margin-left:4px;box-shadow:none}.ds-nav .ds-nav-book:hover{background:var(--red-dark,#8f0b10)}.ds-nav a:focus-visible{outline:3px solid var(--red,#d4141c);outline-offset:3px}"
+    },
+    {
+      "name": "Tunnel Card",
+      "kind": "card",
+      "refersTo": "tunnel-card",
+      "description": "A cut photo as a rounded card at depth, the unit of the hero tunnel.",
+      "html": "<div class=\"ds-tstage\"><div class=\"ds-tcard\" style=\"transform:translate3d(-120px,-20px,-500px)\"></div><div class=\"ds-tcard\" style=\"transform:translate3d(90px,30px,-150px)\"></div></div>",
+      "css": ".ds-tstage{position:relative;height:320px;overflow:hidden;perspective:900px;background:radial-gradient(ellipse 60% 55% at 50% 50%,var(--red-glow,#2a0406),var(--ink,#0b0b0c) 75%)}.ds-tcard{position:absolute;left:50%;top:50%;width:160px;aspect-ratio:4/5;margin:-100px 0 0 -80px;border-radius:10px;background:linear-gradient(160deg,#4a4244,var(--frame-fill,#2a2627));box-shadow:0 20px 40px rgba(0,0,0,.55)}"
+    },
+    {
+      "name": "Open Cut Card",
+      "kind": "card",
+      "refersTo": "cut-open",
+      "description": "Dashed 4:5 placeholder that sends the visitor to booking.",
+      "html": "<a class=\"ds-cut-open\" href=\"#\"><span><span class=\"ds-big\">Your cut<br>goes here</span><span class=\"ds-go\">Book a cut</span></span></a>",
+      "css": ".ds-cut-open{display:grid;place-items:center;text-align:center;aspect-ratio:4/5;width:220px;border:2px dashed #3a3a40;border-radius:10px;padding:24px 12px;color:var(--on-ink,#f2ede6);text-decoration:none;transition:border-color .2s ease}.ds-cut-open:hover{border-color:var(--red,#d4141c)}.ds-cut-open:focus-visible{outline:3px solid var(--red,#d4141c);outline-offset:3px}.ds-big{display:block;font:900 clamp(2.4rem,4vw,3.4rem)/.9 \"Big Shoulders Display\",Archivo,sans-serif;text-transform:uppercase}.ds-go{display:block;margin-top:18px;font:700 1rem/1.55 Archivo,system-ui,sans-serif;color:var(--red-text,#ff5a52)}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Big display service name with an Ash description, ruled top and bottom.",
+      "html": "<ul class=\"ds-services\"><li><h3>Fades</h3><p>Low, mid or high, blended smooth from skin up.</p></li><li><h3>Tapers</h3><p>Low, temple and burst tapers that grow out clean.</p></li></ul>",
+      "css": ".ds-services{list-style:none;padding:0;margin:0;border-bottom:1px solid var(--rule,#26262a);color:var(--on-ink,#f2ede6)}.ds-services li{display:grid;grid-template-columns:1fr 1fr;gap:16px 40px;align-items:baseline;padding:24px 0;border-top:1px solid var(--rule,#26262a)}.ds-services h3{margin:0;font:900 clamp(2.2rem,5vw,4.25rem)/.95 \"Big Shoulders Display\",Archivo,sans-serif;text-transform:uppercase;transition:color .2s ease}.ds-services li:hover h3{color:var(--red,#d4141c)}.ds-services p{margin:0;color:var(--on-ink-muted,#b4aca6);font:400 1.1rem/1.55 Archivo,system-ui,sans-serif;max-width:42ch}"
+    },
+    {
+      "name": "Contact Panel",
+      "kind": "card",
+      "refersTo": "contact-panel",
+      "description": "Red panel of paper contact rows that invert to ink on hover.",
+      "html": "<div class=\"ds-book\"><p class=\"ds-book-head\">Busted Blends</p><ul class=\"ds-ways\"><li><a href=\"#\"><svg width=\"1.25em\" height=\"1.25em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg><span>Text<small>(555) 555-0123</small></span></a></li><li><a href=\"#\"><svg width=\"1.25em\" height=\"1.25em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg><span>Email<small>placeholder@example.com</small></span></a></li></ul></div>",
+      "css": ".ds-book{max-width:440px;background:var(--red,#d4141c);color:var(--on-red,#fff6f0);border-radius:20px;padding:clamp(22px,3vw,32px);box-shadow:0 30px 60px rgba(0,0,0,.5)}.ds-book-head{margin:0;font:900 1.5rem/1 \"Big Shoulders Display\",Archivo,sans-serif;text-transform:uppercase}.ds-ways{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:10px}.ds-ways a{display:flex;align-items:center;gap:14px;min-height:60px;padding:12px 16px;border-radius:8px;background:var(--paper,#f2ede6);color:var(--paper-ink,#1a1716);text-decoration:none;font:700 1rem/1.4 Archivo,system-ui,sans-serif;transition:background .2s ease,color .2s ease}.ds-ways a:hover{background:var(--ink,#0b0b0c);color:var(--paper,#f2ede6)}.ds-ways a:focus-visible{outline:3px solid var(--on-red,#fff6f0);outline-offset:3px}.ds-ways small{display:block;font-weight:500;font-size:.85rem;color:var(--paper-muted,#5c5550)}.ds-ways a:hover small{color:var(--on-ink-muted,#b4aca6)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Tunnel Of Cuts",
+    "overview": "A plain, confident barber site on a near-black ground with a deep red glow at its centre. The hero is the one theatrical moment: his real cut photos hang as rounded cards on a golden-angle spiral receding into the dark, and scrolling pulls the camera through them. Cards fade up out of the depth and fade away just before they would hit the lens. The name sits dead centre over a dark wash, huge and stamped, BUSTED in paper and BLENDS in red.\n\nAfter the hero the page settles into a normal barber site: a plain grid of the same cuts, a list of what gets cut in big display rows, and a red panel of paper contact rows. Density is low and the type is big. The photos are the only imagery; there is no illustration. Glass is reserved for the one floating thing, the nav pill; red panels and paper rows are the material for things you act on. Motion is short and tied to scroll or hover, and reduced motion shows one still arrangement of the tunnel with no tall scroll.",
+    "keyCharacteristics": [
+      "Near-black ground with a red radial glow at the centre of the hero; red is the only hue.",
+      "The real cut photos are the world: 4:5 cards with 10px corners, in 3D in the hero and flat in the grid. No filters.",
+      "Condensed 900-weight uppercase display (Big Shoulders Display) over plain Archivo.",
+      "One glass surface: the fixed frosted nav pill.",
+      "Depth by perspective and soft downward shadow, never by hard offsets."
+    ],
+    "rules": [
+      {
+        "name": "The Two Reds For Text Rule",
+        "body": "Sign Red sets large type only (BLENDS, the mark, service rows on hover, all at least 20px bold). Any red text smaller than that on black uses Red Text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper On Red Rule",
+        "body": "Text on a Sign Red fill is always Warm White on Red. Pressable rows on a red panel are paper with Paper Ink text, never red on red.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Display Weight Rule",
+        "body": "Display type is Big Shoulders at 900, uppercase, every time. Hierarchy comes from size, never from a lighter cut.",
+        "section": "typography"
+      },
+      {
+        "name": "The Copy Floats Over The Tunnel Rule",
+        "body": "Hero copy never gets a box. It reads over moving photos through the dark wash and text-shadows alone.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Refraction Is A Bonus Rule",
+        "body": "The liquid displacement filter (#liquid) runs only in Chromium. The glass nav must read as finished with blur, saturate, a 1px white edge and an inset highlight alone, because it also floats over flat black once the hero is past.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep red the only hue: Sign Red for fills and large type, Ember Red for hover, Red Text for small red text on black.",
+      "Do let the real cut photos be the imagery, framed at 4:5 with 10px corners.",
+      "Do keep glass to the floating nav, and make it finished without the refraction filter.",
+      "Do use soft, downward, blurred black shadows; let the red centre glow supply atmosphere.",
+      "Do set display type in Big Shoulders 900 uppercase and everything else in Archivo.",
+      "Do give every motion a reduced-motion state: one still tunnel arrangement, no tall scroll, no smooth scroll.",
+      "Do show focus with a 3px outline, 3px offset: Sign Red on dark, Warm White on Red inside the red panel."
+    ],
+    "donts": [
+      "Don't set small red text on black in Sign Red; use Red Text.",
+      "Don't use hard offset drop shadows.",
+      "Don't make any surface depend on the #liquid refraction; it is Chromium-only.",
+      "Don't use Stony Brook University logos or school colours; the school is named in copy only.",
+      "Don't treat the contact values in the build as brand facts; they are placeholders."
+    ]
+  }
+}

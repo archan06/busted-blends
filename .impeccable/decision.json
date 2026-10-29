@@ -1,0 +1,52 @@
+{
+  "title": "Choose the visual world",
+  "question": "The roll assigned the Take-a-Number Counter. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned", "kind": "assigned", "label": "Take-a-Number Counter", "kicker": "THE ROLL",
+      "lineage": "barbershop and deli 'take a number' dispensers with red NOW SERVING displays",
+      "thesis": "The whole site is the queue: pull a ticket, get in the chair.",
+      "palette": ["#0b0b0c", "#d4141c", "#ff3b30", "#f2ede6"],
+      "materials": ["red injection-moulded dispenser", "perforated paper tickets", "7-segment LED counter"],
+      "viewport": "A giant red NOW SERVING LED counter beside a dispenser; pulling the ticket tab opens contact (phone, email, IG).",
+      "risk": "Reads gimmicky if the ticket metaphor spreads into every section instead of the hero and contact.",
+      "raised": [
+        {"from": "challenger-vu", "raise": "Gallery cuts repeat as identical ticket-sized frames, so the row reads as one ruler."},
+        {"from": "challenger-azulejo", "raise": "Layout snaps to whole ticket units; nothing sits at a fractional size."},
+        {"from": "challenger-civic", "raise": "Red is spent in one place per screen: the counter, then the ticket you pull."}
+      ]
+    },
+    {
+      "id": "model-pick", "kind": "pick", "label": "Dorm Flyer Wall", "kicker": "IMPECCABLE’S PICK",
+      "lineage": "photocopied campus flyers with tear-off phone tabs",
+      "thesis": "A flyer on the dorm corkboard, tear a tab to book.",
+      "palette": ["#111111", "#e01b24", "#efeae0"],
+      "materials": ["xerox toner grain", "staples and tape", "tear-off tabs"],
+      "viewport": "One huge photocopied flyer with tear-off contact tabs along the bottom.",
+      "risk": "Familiar: this is where most student-service sites land, and it can look cheap."
+    },
+    {"id": "challenger-vu", "kind": "challenger", "catalogId": "signals-instruments-vu-meter-bridge", "label": "VU Meter Bridge", "verdict": "declined",
+      "lineage": "recording desk meters", "thesis": "Needles leaning into the red.", "palette": ["#f3ecd9", "#111111", "#c8262b"], "materials": ["meter glass", "walnut"],
+      "viewport": "A row of meters.", "risk": "Students do not read a barber through audio gear.",
+      "case": "Loses on both axes: no link between a fade and a meter.", "kept": "Identical units repeated as a ruler."},
+    {"id": "challenger-azulejo", "kind": "challenger", "catalogId": "architecture-places-azulejo-station-hall", "label": "Azulejo Station Hall", "verdict": "declined",
+      "lineage": "tin-glazed tile halls", "thesis": "Cobalt narrative panels.", "palette": ["#1d3f9a", "#f7f5ef", "#d8a72c"], "materials": ["glazed tile", "grout"],
+      "viewport": "A tiled panel hall.", "risk": "Cobalt breaks the pinned red and black.",
+      "case": "Conflicts with the brief's colours and the audience.", "kept": "Whole-unit grid discipline."},
+    {"id": "challenger-civic", "kind": "challenger", "catalogId": "civic-bureau-prospectus-late-modern", "label": "Civic Bureau Prospectus", "verdict": "declined",
+      "lineage": "late-modern corporate prospectus", "thesis": "All colour spent on one ribbon.", "palette": ["#f7f7fa", "#1b1547", "#6b5ce7"], "materials": ["bone-white plate", "silk ribbon"],
+      "viewport": "Corporate hero with ribbon.", "risk": "Corporate; wrong for a dorm barber.",
+      "case": "Loses both axes.", "kept": "All colour spent in one place."},
+    {"id": "challenger-plankton", "kind": "challenger", "catalogId": "reefs-bioluminescent-nocturnal-plankton-wake-stars", "label": "Bioluminescent Wake", "verdict": "declined",
+      "lineage": "night sea plankton", "thesis": "Pointer trails of living light.", "palette": ["#02040a", "#1e7bff", "#5ff2ff"], "materials": ["black water", "glow"],
+      "viewport": "A dark field lit by trails.", "risk": "Blue glow breaks the pinned palette.",
+      "case": "Loses both axes.", "kept": "Darkness at rest, light only where touched."}
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code"},
+  "canon": true,
+  "canonCard": {"kind": "canon", "label": "The category standard", "thesis": "A barber site done cleanly: photo hero, gallery grid, contact.",
+    "palette": ["#0b0b0b", "#c1121f", "#ffffff"], "materials": ["full-bleed photo", "clean grid"],
+    "viewport": "A big cut photo with the name and a Book button.", "risk": "Looks like every other barber site."},
+  "steer": true
+}
