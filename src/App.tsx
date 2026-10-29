@@ -1,5 +1,6 @@
 import { useState, type CSSProperties } from "react";
 import PerspectiveTunnelHero from "./components/ui/perspective-tunnel-hero";
+import Booking from "./Booking";
 
 const PHONE = "+12488023662", PHONE_LABEL = "(248) 802-3662";
 const EMAIL = "bustedblends@gmail.com";
@@ -89,10 +90,8 @@ export default function App() {
           <div className="book-wrap">
             <div className="book-copy">
               <h2 className="h2" id="book-title">Book a cut</h2>
-              <p>Text, call, email or DM to set up a time. I cut on campus at Stony Brook University.</p>
-            </div>
-            <div className="book">
-              <p className="book-head">Busted Blends</p>
+              <p>Pick a day and a 30-minute slot. I cut on campus at Stony Brook University, 10 AM to 8:30 PM.</p>
+              <p className="ways-label">Rather message me?</p>
               <ul className="ways">
                 <li><a href={`sms:${PHONE}`}><Icon id="i-text" /><span>Text<small>{PHONE_LABEL}</small></span></a></li>
                 <li><a href={`tel:${PHONE}`}><Icon id="i-phone" /><span>Call<small>{PHONE_LABEL}</small></span></a></li>
@@ -100,6 +99,7 @@ export default function App() {
                 <li><a href={`https://instagram.com/${IG}`} target="_blank" rel="noopener"><Icon id="i-ig" /><span>Instagram<small>@{IG}</small></span></a></li>
               </ul>
             </div>
+            <div className="book"><Booking /></div>
           </div>
         </section>
       </main>
