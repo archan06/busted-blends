@@ -86,8 +86,8 @@ a { color: inherit; text-underline-offset: .2em; }
 .hx-panel.is-open { flex-grow: 7; }
 .hx-panel > button, .hx-panel > a { display: block; width: 100%; height: 100%; padding: 0; border: 0; background: none; color: inherit; text-decoration: none; cursor: pointer; text-align: left; }
 .hx-panel > :focus-visible { outline-offset: -3px; }
-.hx img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) brightness(.4) contrast(1.15); transform: scale(1.15); transition: filter .7s ease, transform 1s var(--ease-out); }
-.hx-panel:not(.is-open):hover img { filter: grayscale(1) brightness(.6) contrast(1.15); }
+.hx img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) brightness(.6) contrast(1.15); transform: scale(1.15); transition: filter .7s ease, transform 1s var(--ease-out); }
+.hx-panel:not(.is-open):hover img { filter: grayscale(1) brightness(.8) contrast(1.15); }
 .hx .is-open img { filter: none; transform: scale(1); }
 /* red bar on the open panel */
 .hx-panel::after { content: ""; position: absolute; inset: auto 0 0; border-bottom: 4px solid var(--red); opacity: 0; transition: opacity .5s ease; pointer-events: none; }
@@ -213,6 +213,11 @@ a { color: inherit; text-underline-offset: .2em; }
 @media (max-width: 860px) {
   .book-wrap { grid-template-columns: minmax(0, 1fr); }
   .book { max-width: 480px; }
+  /* phones: calendar right after the intro, message options below it */
+  .book-wrap { row-gap: 0; }
+  .book-copy { display: contents; }
+  .book { order: 1; margin-top: 32px; }
+  .ways-label, .ways { order: 2; }
 }
 @media (max-width: 520px) {
   .nav .nav-hide-sm { display: none; }

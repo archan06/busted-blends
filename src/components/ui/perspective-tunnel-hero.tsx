@@ -239,7 +239,7 @@ export default function PerspectiveTunnelHero({ children }: { children?: ReactNo
             {/* Central Anchor Typography */}
             <motion.div
                 style={{ scale: titleScale, opacity: titleOpacity }}
-                className="pointer-events-none z-0 flex flex-col items-center text-center px-6"
+                className="pointer-events-none z-10 flex flex-col items-center text-center px-6"
             >
                 {children}
             </motion.div>
