@@ -81,7 +81,7 @@ export default function App() {
         <section className="section" id="cuts" aria-labelledby="cuts-title">
           <div className="section-head">
             <h2 className="h2" id="cuts-title">Fresh out<br />the chair</h2>
-            <p>Real cuts on real Stony Brook students, shot right after. No filters, no stock photos.</p>
+            <p>Cuts I did on Stony Brook students, photographed right after.</p>
           </div>
           <Cuts />
         </section>
