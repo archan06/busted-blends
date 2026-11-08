@@ -3,3 +3,4 @@ dist
 .impeccable/review
 .env*
 !.env.example
+.vercel
