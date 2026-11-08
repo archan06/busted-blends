@@ -3,8 +3,8 @@ import { createHash, createSign, timingSafeEqual } from "node:crypto";
 
 export const TZ = "America/New_York";
 export const OPEN = 10 * 60; // 10:00 AM, minutes after midnight
-export const CLOSE = 20 * 60 + 30; // 8:30 PM: the last cut starts at 8:00
-export const SLOT = 30; // minutes
+export const CLOSE = 20 * 60 + 30; // 8:30 PM: the last cut starts at 7:45
+export const SLOT = 45; // minutes
 export const DAYS_AHEAD = 30;
 const MIN = 60_000;
 
@@ -47,7 +47,7 @@ export function validDate(date: unknown, now = Date.now()): date is string {
 
 export type Busy = { start: string; end: string };
 
-/** ISO start times of open 30-minute slots on `date` that are in the future and clear of `busy`. */
+/** ISO start times of open SLOT-minute slots on `date` that are in the future and clear of `busy`. */
 export function freeSlots(date: string, busy: Busy[], now = Date.now()) {
   const taken = busy.map(b => [Date.parse(b.start), Date.parse(b.end)]);
   const out: string[] = [];

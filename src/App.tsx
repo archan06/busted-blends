@@ -90,7 +90,7 @@ export default function App() {
           <div className="book-wrap">
             <div className="book-copy">
               <h2 className="h2" id="book-title">Book a cut</h2>
-              <p>Pick a day and a 30-minute slot. I cut on campus at Stony Brook University, 10 AM to 8:30 PM.</p>
+              <p>Pick a day and a 45-minute slot. I cut on campus at Stony Brook University, 10 AM to 8:30 PM.</p>
               <p className="ways-label">Rather message me?</p>
               <ul className="ways">
                 <li><a href={`sms:${PHONE}`}><Icon id="i-text" /><span>Text<small>{PHONE_LABEL}</small></span></a></li>

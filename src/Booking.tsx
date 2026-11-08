@@ -57,7 +57,7 @@ export default function Booking() {
     <div className="bk-done" role="status">
       <p className="book-head">You're booked</p>
       <p className="bk-when">{longDate(booked)}<br />{time(booked)}</p>
-      <p>30 minutes on campus at Stony Brook. To move it, text me.</p>
+      <p>45 minutes on campus at Stony Brook. To move it, text me.</p>
       <button type="button" className="bk-link" onClick={() => { setBooked(null); setReload(n => n + 1); }}>Book another</button>
     </div>
   );

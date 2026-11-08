@@ -8,24 +8,24 @@ test("New York wall time → UTC across daylight saving", () => {
   assert.equal(new Date(wallToUtc("2026-11-02", 600)).toISOString(), "2026-11-02T15:00:00.000Z"); // EST
 });
 
-test("slots run 10:00 AM to 8:00 PM starts, every 30 minutes", () => {
+test("slots run 10:00 AM to 7:45 PM starts, every 45 minutes", () => {
   const s = freeSlots("2026-10-28", [], 0);
-  assert.equal(s.length, 21);
+  assert.equal(s.length, 14);
   assert.equal(s[0], "2026-10-28T14:00:00.000Z");
-  assert.equal(s.at(-1), "2026-10-29T00:00:00.000Z"); // 8:00 PM EDT, ends 8:30
+  assert.equal(s.at(-1), "2026-10-28T23:45:00.000Z"); // 7:45 PM EDT, ends 8:30
 });
 
 test("busy blocks (classes) remove every overlapping slot", () => {
-  // class 11:00 AM–12:15 PM EDT kills 11:00, 11:30 and 12:00
+  // class 11:00 AM–12:15 PM EDT kills 10:45 and 11:30; 12:15 starts right after
   const s = freeSlots("2026-10-28", [{ start: "2026-10-28T15:00:00Z", end: "2026-10-28T16:15:00Z" }], 0);
-  assert.equal(s.length, 18);
-  assert.ok(!s.includes("2026-10-28T16:00:00.000Z"));
-  assert.ok(s.includes("2026-10-28T16:30:00.000Z"));
+  assert.equal(s.length, 12);
+  assert.ok(!s.includes("2026-10-28T15:30:00.000Z"));
+  assert.ok(s.includes("2026-10-28T16:15:00.000Z"));
 });
 
 test("past slots are hidden", () => {
   const s = freeSlots("2026-10-28", [], wallToUtc("2026-10-28", 615));
-  assert.equal(s[0], "2026-10-28T14:30:00.000Z");
+  assert.equal(s[0], "2026-10-28T14:45:00.000Z");
 });
 
 test("dates must be today through 30 days out", () => {
